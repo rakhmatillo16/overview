@@ -1,6 +1,6 @@
 .left {
     max-width: 251px;
-    padding-left: 34px;
+    padding: 0 34px;
 
     &__logo {
         padding-top: 43px;
@@ -13,9 +13,26 @@
         margin-bottom: 36px;
     }
 
+    &__item + &__item {
+        margin-top: 40px;
+    }
+
+    &__item-logout {
+        margin-top: 263px;
+    }
+
     &__item-img {
         margin-right: 21px;
         width: 21px;
         height: 24px;
+    }
+}
+
+.right {
+    width: 1062px;
+    margin: 0 52px;
+
+    &__top {
+        padding: 52px 0;
     }
 }
