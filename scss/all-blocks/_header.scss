@@ -1,0 +1,21 @@
+.left {
+    max-width: 251px;
+    padding-left: 34px;
+
+    &__logo {
+        padding-top: 43px;
+        padding-bottom: 35px;
+    }
+
+    &__span {
+        border: 1px solid rgba(255, 255, 255, 1);
+        width: 182px;
+        margin-bottom: 36px;
+    }
+
+    &__item-img {
+        margin-right: 21px;
+        width: 21px;
+        height: 24px;
+    }
+}
